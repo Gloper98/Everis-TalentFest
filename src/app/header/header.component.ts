@@ -10,7 +10,7 @@ export class HeaderComponent {
   public title: string;
 
   constructor() {
-    this.title = 'Soy un header'
+    this.title = 'Home'
   }
 
 }
