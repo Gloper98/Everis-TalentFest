@@ -9,4 +9,11 @@ const ROUTES: Routes = [
     {path: '**', component: HomeComponent}
 ];
 
+// const HOME_ROUTES: Routes = [
+//     {path: 'home/proyects' , component: MyProyectsComponent},
+//     {path: 'home/work-team', component: WorkTeamComponent}
+// ]
+
 export const ROUTES_APP = RouterModule.forRoot(ROUTES);
+
+// export const ROUTES_MAIN = RouterModule.forChild()
