@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
-    selector: 'app-footer',
-    templateUrl: './footer.component.html'
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-    public title: string;
 
-    constructor(){
-        this.title = 'Soy un footer';
-    }
+  public licencia: string;
+
+  constructor() {
+    this.licencia = 'Copyright&copy; 2018'
+  }
 
 }
