@@ -14,8 +14,8 @@ export class AppComponent {
     this.name = 'hola mundo'
   }
 
-  public goLogin() {
-    this.router.navigate(['/login']);
-  }
+  // public goLogin() {
+  //   this.router.navigate(['/login']);
+  // }
 
 }

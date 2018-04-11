@@ -8,12 +8,13 @@ import { Router } from '@angular/router';
 export class LoginComponent {
     public title: string;
 
-    constructor() {
+    constructor(private router: Router) {
         this.title = 'login';
     }
 
-    public goHome() {
+     public goLogin() {
+    this.router.navigate(['/home']);
+  }
 
-    }
 
 }
