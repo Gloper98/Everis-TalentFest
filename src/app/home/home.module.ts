@@ -3,6 +3,10 @@ import { HomeComponent } from './home.component';
 import { FooterComponent } from '../footer/footer.component';
 import { HeaderComponent } from '../header/header.component';
 import { SidenavComponent } from '../sidenav/sidenav.component';
+//Module to consume API, example
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
+
 
 
 @NgModule({
@@ -14,6 +18,11 @@ import { SidenavComponent } from '../sidenav/sidenav.component';
     ],
     exports: [
         HomeComponent  
+    ],
+    //imports to consume API
+    imports: [
+        BrowserModule,
+        HttpModule
     ]
 })
 
