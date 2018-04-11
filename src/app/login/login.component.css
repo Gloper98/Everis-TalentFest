@@ -1,0 +1,10 @@
+.bg {
+  background-image: url(http://www.businessempresarial.com.pe/wp-content/uploads/2017/08/EVERIS.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
