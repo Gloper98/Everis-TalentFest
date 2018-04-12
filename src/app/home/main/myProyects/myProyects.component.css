@@ -11,3 +11,19 @@
 .tag-filter {
     padding: 0;
 }
+
+.box-proyects {
+    width: 100%;
+}
+
+.btn-type {
+    border-bottom: 1px solid black;
+}
+
+.bg-light p span {
+    padding-left: 20px;
+}
+
+span {
+    color: #9bae0c;
+}

@@ -11,7 +11,6 @@ export class MyProyectsService {
 
   public getContacts(): Observable<any> {
     const apiUrl = 'https://api.myjson.com/bins/nk6k7';
-    // const apiUrl = 'https://address-book-demo.herokuapp.com/api/contacts';
 
     return this.http.get(apiUrl)
       .map((res) => {
