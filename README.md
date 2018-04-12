@@ -81,7 +81,7 @@ al Gerente de Tecnología :
 
  a usuarios colaboradores :
 
-![Uploading entrevista-colaborador-recientemente-nuevo-1.png…]()
+![entrevista-colaborador-recientemente-nuevo-1](https://user-images.githubusercontent.com/31896385/38693672-4b054e1e-3e4d-11e8-85bd-fe41688c2136.png)
 
 
 
