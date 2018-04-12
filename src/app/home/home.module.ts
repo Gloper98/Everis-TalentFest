@@ -6,6 +6,9 @@ import { SidenavComponent } from '../sidenav/sidenav.component';
 import { MyProyectsComponent } from "./main/myProyects/myProyects.component";
 import { WorkTeamComponent } from './main/workTeam/workTeam.component';
 import { HOME_ROUTES } from './home.routes';
+//Module to consume API, example
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpModule } from '@angular/http';
 
 
 @NgModule({
@@ -18,10 +21,12 @@ import { HOME_ROUTES } from './home.routes';
         WorkTeamComponent
     ],
     imports: [
-        HOME_ROUTES
+        HOME_ROUTES,
+        BrowserModule,
+        HttpModule
     ],
     exports: [
-        HomeComponent
+        HomeComponent  
     ]
 })
 
