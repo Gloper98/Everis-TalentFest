@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +10,7 @@ export class HeaderComponent {
 
   public title: string;
 
-  constructor() {
+  constructor(private router: Router) {
     this.title = 'Home'
   }
 

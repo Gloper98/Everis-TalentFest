@@ -23,6 +23,7 @@ export class LoginComponent {
         this.loginServices.signIn(this.email, this.password).subscribe((user) => {
             if (user.body.usuario.name) {
                 this.validateProfile(user.body.usuario);
+                this.router.navigate(['/home/house']);
             } else {
                 this.router.navigate(['/login']);
                 console.log('usuario no registrado');
