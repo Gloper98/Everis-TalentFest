@@ -23,14 +23,13 @@
           </div>
           <div class="col-12 col-md-6">
               <div class="card">
-                  <ng-container *ngFor="let contact of data.DATA">
+                  <ng-container *ngFor="let contact of data.proyects">
                       <div class="card" style="width: 18rem;">
                           <div class="card-body">
-                            <h5 class="card-title">Direccion: {{contact.EMPRESA}}</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Horario de apertura: {{contact.FECHA}}</h6>
-                            <p class="card-text">Business Partner: </p>
-                            <p class="business-date">rositachavez@everis.pe</p>
-                            <a href="#" class="card-link">Cel.: </a>
+                            <h5 class="card-title">Lider: {{contact.contactName}}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Description: {{contact.description}}</h6>
+                            <p class="card-text">Direccion: {{contact.location}}</p>
+                            <p class="business-date">{{contact.contactEmail}}</p>
                           </div>
                         </div>
                         <br>

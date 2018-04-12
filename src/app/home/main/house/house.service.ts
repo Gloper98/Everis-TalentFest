@@ -10,7 +10,7 @@ export class HouseService {
   }
 
   public getContacts(): Observable<any> {
-    const apiUrl = 'https://api.myjson.com/bins/nk6k7';
+    const apiUrl = 'https://backend-everis.herokuapp.com/api/guardar-proyect';
     return this.http.get(apiUrl)
       .map((res) => {
         return res;
