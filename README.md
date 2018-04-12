@@ -45,7 +45,8 @@ Se han identificado los siguientes tipos de usuario:
 | Usuarios |Tipo| Descripción|
 | ---- | ---- |---- |
 | Líder de Proyecto | Principal| Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
-| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa everis|
+| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa 
+is|
 
 ### Identificación del Objetivo del Proyecto
 
@@ -54,7 +55,7 @@ Para lograr este objetivo se realizó una actividad de * **Brainstorming** entre
 ![brainstorming](https://user-images.githubusercontent.com/32305619/38677151-feab766c-3e22-11e8-85e5-60ce6f3e2ad9.png)
 
 
-### Identificación del 
+### Identificación del Flujo de Usuario con el Sistema 
 Se identificó un flujo de actividad que tendrían los usuarios, en algunos interacciones comunes y en otros casos exclusivas de cada usuario. Las cuales se muestra en la siguiente imágen:
 
 ![productdesign](https://user-images.githubusercontent.com/32305619/38677187-1cebb538-3e23-11e8-9a84-c6025ce14991.png)
@@ -67,6 +68,29 @@ Se identificó un flujo de actividad que tendrían los usuarios, en algunos inte
 ![arquetipo1](https://user-images.githubusercontent.com/32305619/38676911-27a2e998-3e22-11e8-931a-59cd61e80c63.jpg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+
+## Entrevistas
+Como siguiente paso , realizamos entrevistas a personal de Everis, con diferentes perfiles y roles.
+
+al Gerente de Tecnología : 
+
+![entrevista-colaborador-2-a](https://user-images.githubusercontent.com/31896385/38693449-80c8d986-3e4c-11e8-96f2-ee17a1b11070.png)
+
+
+
+ a usuarios colaboradores :
+
+![entrevista-colaborador-recientemente-nuevo-1](https://user-images.githubusercontent.com/31896385/38693672-4b054e1e-3e4d-11e8-85bd-fe41688c2136.png)
+
+
+
+
+## Testing
+
+Se realizó un testing con un Alvaro , Desarrollador de Everis, con el perfil de usuario colaborador .
+
+![testing-1](https://user-images.githubusercontent.com/31896385/38693997-1e5ec77c-3e4e-11e8-85fb-62b5a8cbcc72.png)
 
 ## Development server
 
