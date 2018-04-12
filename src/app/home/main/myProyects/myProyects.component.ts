@@ -21,15 +21,8 @@ export class MyProyectsComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.renderContact();
     }
 
-    public renderContact(): void {
-        this.myProyectsService.getContacts().subscribe(data => {
-            console.log('llamada backend', data);
-            this.data = data;
-        });
-    }
 
     goYape() {
         this.router.navigate(['/home/myProyects/yape']);        
