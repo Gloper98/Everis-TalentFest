@@ -54,7 +54,7 @@ Para lograr este objetivo se realizó una actividad de * **Brainstorming** entre
 ![brainstorming](https://user-images.githubusercontent.com/32305619/38677151-feab766c-3e22-11e8-85e5-60ce6f3e2ad9.png)
 
 
-### Identificación del 
+### Identificación del Flujo de Usuario con el Sistema 
 Se identificó un flujo de actividad que tendrían los usuarios, en algunos interacciones comunes y en otros casos exclusivas de cada usuario. Las cuales se muestra en la siguiente imágen:
 
 ![productdesign](https://user-images.githubusercontent.com/32305619/38677187-1cebb538-3e23-11e8-9a84-c6025ce14991.png)
@@ -67,6 +67,14 @@ Se identificó un flujo de actividad que tendrían los usuarios, en algunos inte
 ![arquetipo1](https://user-images.githubusercontent.com/32305619/38676911-27a2e998-3e22-11e8-931a-59cd61e80c63.jpg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+## Testing
+
+Se realizó un testing con un Alvaro , Desarrollador de Everis, con el perfil de usuario colaborador .
+
+
+![testing-1](https://user-images.githubusercontent.com/31896385/38692224-bd8fa466-3e48-11e8-9751-a16e74fb4c6a.png)
+
 
 ## Development server
 
