@@ -1,4 +1,7 @@
-# MyApp
+# Everis-Visualización de Proyectos
+
+![group 12](https://user-images.githubusercontent.com/32305619/38673228-548aaa38-3e16-11e8-802e-8acfc23de89b.png)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
