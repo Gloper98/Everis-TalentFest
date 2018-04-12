@@ -12,6 +12,7 @@ import { HttpModule } from '@angular/http';
 import { HouseComponent } from './main/house/house.component';
 import { SettingsComponent } from './main/settings/settings.component';
 import { DocumentationComponent } from './main/documentation/documentation.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -29,7 +30,7 @@ import { DocumentationComponent } from './main/documentation/documentation.compo
     imports: [
         HOME_ROUTES,
         BrowserModule,
-        HttpModule
+        HttpClientModule
     ],
     exports: [
         HomeComponent  
