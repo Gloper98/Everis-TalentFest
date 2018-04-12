@@ -85,6 +85,8 @@ al Gerente de Tecnología :
 Se realizó un prototipado rápido luego de haber identificaron pilares y features, 
 
 Versión Nro 1
+![vista-1-colaborador](https://user-images.githubusercontent.com/31896385/38702309-e5e57f54-3e65-11e8-923a-92502d457229.jpg)
+
 
 Versión Nro 2
 ![pantallas de colaborador](https://user-images.githubusercontent.com/31896385/38694578-a65d4fd0-3e4f-11e8-8521-fede7b55ee86.png)
