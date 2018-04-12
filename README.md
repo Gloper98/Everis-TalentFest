@@ -2,6 +2,50 @@
 
 ![group 12](https://user-images.githubusercontent.com/32305619/38673228-548aaa38-3e16-11e8-802e-8acfc23de89b.png)
 
+## Enunciado
+En Everis estamos interesados en potenciar las posibilidades de compartir conocimiento y fomentar el desarrollo profesional de nuestros colaboradores, clientes y comunidad en general. Por esto, creamos un desafío que se resuelve desarrollando una solución centrada en la experiencia de usuario que lo resuelva.
+
+
+## Actividades Previas
+
+### Organización
+
+
+
+## Desarrollo de Reto.
+
+## Metodología Product Design.
+
+
+
+### Identificación de Usuarios
+
+Se han identificado los siguientes tipos de usuario:
+
+| Usuarios  |Tipo|  | Descripción|
+| ---- | ---- |---- |---- |
+| Líder de Proyecto | Principal|  Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
+| Colaborador | Secundario| |Es el stakeholder que es asignado o perteneces a un proyecto de la empresa everis)
+
+### Identificación del Objetivo del Proyecto
+
+Para lograr este objetivo se realizó una actividad de * **Brainstorming** entre el grupo Ux Designer con el facilitador Marlon Rubianes, Lider UX , para luego agrupar y definir aspectos importantes que tendría que tener el enunciado de nuestro objetivo, entre las cuales se tiene:
+
+
+. Esta actividad es visible en la siguiente imágen:
+
+![brainstorming](https://user-images.githubusercontent.com/32305619/38677151-feab766c-3e22-11e8-85e5-60ce6f3e2ad9.png)
+
+Los aspectos
+
+![productdesign](https://user-images.githubusercontent.com/32305619/38677187-1cebb538-3e23-11e8-9a84-c6025ce14991.png)
+
+
+## Arquetipos
+
+![arquetipo2](https://user-images.githubusercontent.com/32305619/38676857-fb6c7dbc-3e21-11e8-9854-a1f820d080e7.jpg)
+
+![arquetipo1](https://user-images.githubusercontent.com/32305619/38676911-27a2e998-3e22-11e8-931a-59cd61e80c63.jpg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 

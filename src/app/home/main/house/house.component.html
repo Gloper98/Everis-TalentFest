@@ -1,38 +1,60 @@
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-md-7">
-                <h3 class="project-title">Mis Proyectos</h3>
-                <div class="background-white box">
-                  <div class="row">
-                    <div class="col-12 col-md-6">
-                      <div class="card">
-                        <div class="card-body">
-                          <img class="logo-business" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BCP.svg/1200px-BCP.svg.png" alt="logo">
-                          <h5 class="card-title">Proyecto</h5>
-                              <p class="projectToWork"><span class="lnr lnr-briefcase"></span>Banca Online</p>
-                         </div>
-                       </div>
-                     </div>
-                      <div class="col-12 col-md-6">
-                        <div class="">
+  <div class="row">
+    <div class="col-12 col-md-7">
+      <div class="background-white box">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <img class="logo-business" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BCP.svg/1200px-BCP.svg.png" alt="logo">
+                <h5 class="card-title">Proyecto</h5>
+                <p class="projectToWork"><span class="lnr lnr-briefcase"></span>Banca Online</p>
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                  <img class="logo-business" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BCP.svg/1200px-BCP.svg.png" alt="logo">
+                  <h5 class="card-title">Proyecto</h5>
+                  <p class="projectToWork"><span class="lnr lnr-briefcase"></span>Yape</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6">
+              <div class="card">
+                  <ng-container *ngFor="let contact of data.proyects">
+                      <div class="card" style="width: 18rem;">
                           <div class="card-body">
-                            <p class="business-date"><span class="black-letter">Direccion:</span> Centenario 165 La Molina</p>
-                            <p class="business-date"><span class="black-letter">Horario de apertura:</span>  9:00am-6:00pm</p>
-                            <p class="business-date"><span class="black-letter">Business Partner:</span></p>
-                            <p class="business-date">rositachavez@everis.pe</p>
-                             <p class="business-date"><span class="black-letter">Cel.</span> 999999999</p>
-                           </div>
-                         </div>
-                       </div>
-                      </div>
-                    </div>
+                            <h5 class="card-title">Lider: {{contact.contactName}}</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Description: {{contact.description}}</h6>
+                            <p class="card-text">Direccion: {{contact.location}}</p>
+                            <p class="business-date">{{contact.contactEmail}}</p>
+                          </div>
+                        </div>
+                        <br>
+                        <br>
+                  </ng-container>
+                </div>
+            <!-- <div class="">
+              <div class="card-body">
+                <p class="business-date"><span class="black-letter">Direccion:</span> {{contact.EMPRESA}} </p>
+                <p class="business-date"><span class="black-letter">Horario de apertura:</span> {contact.FECHA}}</p>
+                <p class="business-date"><span class="black-letter">Business Partner:</span></p>
+                <p class="business-date">rositachavez@everis.pe</p>
+                <p class="business-date"><span class="black-letter">Cel.</span> </p>
+              </div>
+            </div> -->
+          </div>
         </div>
-        <div class="co-12 col-md-5">
-            <h6 class="p-2 my-3 font-weight-bold">Publicaciones</h6>
-            <div id="accordion">
-                <div class="card">
-                  <div class="card-header bg-tabs" id="headingOne">
-                    <h5 class="mb-0">
+      </div>
+    </div>
+    <div class="co-12 col-md-5">
+      <h6 class="p-2 my-3 font-weight-bold">Publicaciones</h6>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header bg-tabs" id="headingOne">
+              <h5 class="mb-0">
                       <button class="btn btn-link bg-tabs font-size-collapse" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         <span class="font-weight-bold mr-1">
                             <span class="lnr lnr-pushpin"></span>
@@ -117,18 +139,18 @@
             </div>
             <h6 class="p-2 my-3 font-weight-bold">Más Información</h6>
             <div id="accordion1">
-                    <div class="card">
-                      <div class="card-header bg-tabs" id="headingOne">
-                        <h5 class="mb-0">
-                          <button class="btn btn-link bg-tabs font-size-collapse" data-toggle="collapse" data-target="#collapseRestaurant" aria-expanded="false" aria-controls="collapseRestaurant">
+              <div class="card">
+                <div class="card-header bg-tabs" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link bg-tabs font-size-collapse" data-toggle="collapse" data-target="#collapseRestaurant" aria-expanded="false" aria-controls="collapseRestaurant">
                             Restaurantes
-                          </button>
-                        </h5>
-                      </div>
-                      <div id="collapseRestaurant" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                        <div class="card-body">
-                          <h6 class="text-uppercase">Restaurantes La Molina</h6>
-                          <div class="row">
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseRestaurant" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <h6 class="text-uppercase">Restaurantes La Molina</h6>
+                      <div class="row">
                               <div class="col-8">
                                   <h6>Name</h6>
                                   <p class="my-0">Precio: <span></span></p>
@@ -140,7 +162,7 @@
                           </div>  
                         </div>
                       </div>
-                    </div>
+                  </div>
                     <div class="card">
                       <div class="card-header bg-tabs" id="headingTwo">
                         <h5 class="mb-0">
