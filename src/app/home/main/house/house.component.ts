@@ -30,6 +30,7 @@ import { HouseService } from './house.service';
 export class HouseComponent implements OnInit {
 
     data: any = {};
+    dataRestaurants: any = {};
     public title: string;
 
     constructor(private houseService: HouseService) {
@@ -38,12 +39,20 @@ export class HouseComponent implements OnInit {
 
     ngOnInit(): void {
         this.renderContact();
+        this.renderRestaurants();
+
     }
 
     public renderContact(): void {
         this.houseService.getContacts().subscribe(data => {
             console.log('llamada backend', data);
             this.data = data;
+        });
+    }
+    public renderRestaurants(): void {
+        this.houseService.getRestaurants().subscribe(data => {
+            console.log('llamada backend', data);
+            this.dataRestaurants = data;
         });
     }
 
