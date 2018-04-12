@@ -1,19 +1,12 @@
-<app-header></app-header>
-<h1>{{title}}</h1>
-<div class="row">
-  <div class="col-3">
-    <app-sidenav></app-sidenav>
-  </div>
-  <div class="col-9">
-    <router-outlet></router-outlet>
-      <!--redering cards with data from the api-->
-      <div class="card">
-        <ng-container *ngFor="let contact of data.contacts">
-            <div class="contact-details">
-              <p>{{contact.name}}</p>
-            </div>
-        </ng-container>
+<div class="container-fluid">
+    <app-header></app-header>
+    <div class="row">
+      <div class="col-md-2">
+        <app-sidenav></app-sidenav>
       </div>
-  </div>
+      <div class="col-md-10">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <app-footer></app-footer>
 </div>
-<app-footer></app-footer>
