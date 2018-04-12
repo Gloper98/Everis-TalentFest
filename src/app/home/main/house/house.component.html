@@ -102,16 +102,19 @@
                     </h5>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <ng-container *ngFor="let element of dataEvents.events">
                     <div class="card-body text-center">
-                      <h6 class="text-uppercase">Almuerzo de Confraternidad </h6>
-                      <p class="font-weight-bold m-0">25 de abril 2018, hora: 12:00 md.</p>
-                      <p class="m-0">Dirección: Av. la molina 123 La molina.</p>
-                      <p>Lugar: Sala de conferencias.</p>
+                      <h6 class="text-uppercase">{{element.eventName}}</h6>
+                      <p class="font-weight-bold m-0">{{element.date}}, {{element.tyme}}</p>
+                      <p class="m-0">Dirección: {{element.address}}</p>
+                      <p>Lugar: {{element.place}}.</p>
                       <div class="row justify-content-center mt-2 py-2 color-collapse-secundary font-weight-bold">
                         Comentar <span class="mx-2 font-size-collapse"><span class="lnr lnr-bubble"></span></span> Me gusta <span class="mx-2 font-size-collapse"><span class="lnr lnr-heart heart-color"></span></span>
                       </div>
                     </div>
+                  </ng-container>
                   </div>
+              
                 </div>
             </div>
             <h6 class="p-2 my-3 font-weight-bold">Más Información</h6>
@@ -157,9 +160,12 @@
                         </h5>
                       </div>
                       <div id="collapseBenefit" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                          <ng-container *ngFor="let el of dataBenefit.benefits">
+
                         <div class="card-body">
-                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                          {{el}}
                         </div>
+                        </ng-container>
                       </div>
                     </div>
             </div>

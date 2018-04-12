@@ -5,35 +5,34 @@
               <div class="col-12">
                  <h6>Lider</h6>
                <div class="boss-img">
-                  <img class="circle" src="http://cultivatesocialmedia.com/wp-content/uploads/2016/02/Square-profile-pic-.jpg" alt="image-user">
+                  <img class="circle" src="https://www.zamorano.edu/wp-content/uploads/2015/07/LAAD_0000_Marlon-Rodriguez-3_0001_LAAD_0002_Bryan-Ruano-2.jpg" alt="image-user">
                </div>
-                <h6 class="info">Laura Jimenez</h6>   
-                <h6 class="info">lauraJimenez@gmail.com</h6>
+               <br>
+                <h6 class="info">{{empresaData.contactName}}</h6>   
+                <h6 class="info">{{empresaData.contactEmail}}</h6>
               </div>
               <div class="col-12">
-                 <h6 class="workers-title">Colaboradores</h6>
+                 <h6 class="workers-title">Nombre de Squad: {{empresaData.squad1}}</h6>
+                 <br>
                  <div class="row">
-                   <div class="col-4 col-xs-12">
-                       <div class="workers-img">
-                           <img class="circle-workers" src="http://cultivatesocialmedia.com/wp-content/uploads/2016/02/Square-profile-pic-.jpg" alt="image-user">
-                        </div>
-                         <h6 class="info">Jhoana Fernandez</h6>   
-                         <h6 class="info-email">joanafernandez@gmail.com</h6>
-                   </div>
+                 
+                        <h5 class="text-center">Integrantes de tu squad: {{empresaData.colaborates[0]}}</h5>
+         
+               
                  </div>
               </div>
             </div>
        </div>
        <hr/>
           <div class="col-12 text-center">
-              <h5 class="box-title">Herramientas</h5>
+              <h5 class="box-title">Detalles: </h5>
               <div class="tools-text text-left">
-                  <p class="resumen-text"><span>Proyecto: </span> Yape</p>
-                  <p class="resumen-text"><span>Lider: </span> Grace Jimenez</p>
-                  <p class="resumen-text"><span>Business Partner: </span></p>
-                  <p class="resumen-text"><span>Horario sede: </span></p>
-                  <p class="resumen-text"><span>Metodologia: </span></p>
-                  <p class="resumen-text"><span>Celula: </span></p>
+                  <p class="resumen-text"><span>Proyecto: {{empresaData.proyectName}}</span></p>
+                  <p class="resumen-text"><span>Proyecto: {{empresaData.description}}</span></p>
+                  <p class="resumen-text"><span>Inicio de Proyecto: {{empresaData.initialDate}} </span></p>
+                  <p class="resumen-text"><span>Fin de Proyecto: {{empresaData.finishDate}} </span></p>
+                  <p class="resumen-text"><span>Metodologia: {{empresaData.methodology}}</span></p>
+                  <p class="resumen-text"><span>Stack: {{empresaData.stack}} </span></p>
               </div>
           </div>
           <hr/>

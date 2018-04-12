@@ -5,7 +5,6 @@
 ## Enunciado
 En Everis estamos interesados en potenciar las posibilidades de compartir conocimiento y fomentar el desarrollo profesional de nuestros colaboradores, clientes y comunidad en general. Por esto, creamos un desafío que se resuelve desarrollando una solución centrada en la experiencia de usuario que lo resuelva.
 
-
 ## Actividades Previas
 
 ### Organización
@@ -45,8 +44,7 @@ Se han identificado los siguientes tipos de usuario:
 | Usuarios |Tipo| Descripción|
 | ---- | ---- |---- |
 | Líder de Proyecto | Principal| Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
-| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa 
-is|
+| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa|
 
 ### Identificación del Objetivo del Proyecto
 
@@ -78,19 +76,34 @@ al Gerente de Tecnología :
 ![entrevista-colaborador-2-a](https://user-images.githubusercontent.com/31896385/38693449-80c8d986-3e4c-11e8-96f2-ee17a1b11070.png)
 
 
-
  a usuarios colaboradores :
 
 ![entrevista-colaborador-recientemente-nuevo-1](https://user-images.githubusercontent.com/31896385/38693672-4b054e1e-3e4d-11e8-85bd-fe41688c2136.png)
 
 
+## Prototipado
+Se realizó un prototipado rápido luego de haber identificaron pilares y features, 
 
+Versión Nro 1
+![vista-1-colaborador](https://user-images.githubusercontent.com/31896385/38702309-e5e57f54-3e65-11e8-923a-92502d457229.jpg)
+
+
+Versión Nro 2
+![pantallas de colaborador](https://user-images.githubusercontent.com/31896385/38694578-a65d4fd0-3e4f-11e8-8521-fede7b55ee86.png)
 
 ## Testing
 
 Se realizó un testing con un Alvaro , Desarrollador de Everis, con el perfil de usuario colaborador .
 
 ![testing-1](https://user-images.githubusercontent.com/31896385/38693997-1e5ec77c-3e4e-11e8-85fb-62b5a8cbcc72.png)
+
+## PROTOTIPO EN MARVEL
+
+| Herramienta  |Version | Link| 
+| ---- | ---- |---- |
+| Marvel | Nro 1  - Colaborador| https://marvelapp.com/project/2903332/ |
+| Marvel | Nro 2  - Gestor Lider| https://marvelapp.com/522ci51/screen/41124055 |
+
 
 ## Development server
 
@@ -115,3 +128,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
