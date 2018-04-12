@@ -1,5 +1,6 @@
 <div class="nav flex-column nav-pills d-none d-lg-block d-lg-none" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-  <a class="nav-link container-fluid rounded-0 text-uppercase active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" routerLink="/home/house">
+  <a (click)="tabActive($event)" class="nav-link container-fluid rounded-0 text-uppercase active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true" routerLink="/home/house">
+    <div id="tag" class="tag"></div>
     <div class="row">
       <span class="col-12 text-center font-weight-bold icon-size">
         <span class="lnr lnr-home"></span>         

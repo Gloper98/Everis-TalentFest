@@ -20,13 +20,13 @@
                         <div class="input-group-prepend">
                           <div class="input-group-text">@</div>
                         </div>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="lemail" [(ngModel)]="email" #lemail="ngModel">
                       </div>
                   </div>
                   <div class="form-group">
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="lpassword" [(ngModel)]="password" #lpassword="ngModel">
                   </div>
-                  <button type="submit" class="btn btn-primary bg-btn" (click)="goLogin()">Ingresar</button>
+                  <button type="submit" class="btn btn-primary bg-btn" (click)="logIn()">Ingresar</button>
                 </form>
         </div>
       </div>

@@ -13,4 +13,9 @@ export class SidenavComponent {
         this.title = 'la home';
     }
 
+    tabActive(e){
+       document.getElementById("tag").classList.add('d-none');
+       console.log('hola');
+    }
+
 }
