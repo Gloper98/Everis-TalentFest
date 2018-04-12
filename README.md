@@ -78,12 +78,20 @@ al Gerente de Tecnología :
 ![entrevista-colaborador-2-a](https://user-images.githubusercontent.com/31896385/38693449-80c8d986-3e4c-11e8-96f2-ee17a1b11070.png)
 
 
-
  a usuarios colaboradores :
 
 ![entrevista-colaborador-recientemente-nuevo-1](https://user-images.githubusercontent.com/31896385/38693672-4b054e1e-3e4d-11e8-85bd-fe41688c2136.png)
 
 
+## Prototipado
+Se realizó un prototipado rápido luego de haber identificaron pilares y features, 
+
+Versión Nro 1
+
+
+
+Versión Nro 2
+![pantallas de colaborador](https://user-images.githubusercontent.com/31896385/38694578-a65d4fd0-3e4f-11e8-8521-fede7b55ee86.png)
 
 
 ## Testing
