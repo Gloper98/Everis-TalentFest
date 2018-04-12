@@ -22,11 +22,19 @@ export class LoginComponent {
     public logIn() {        
         this.loginServices.signIn(this.email, this.password).subscribe((user) => {
             if (user.body.usuario.name) {
-                this.router.navigate(['/home']);
+                this.validateProfile(user.body.usuario);
             } else {
                 this.router.navigate(['/login']);
                 console.log('usuario no registrado');
             }
         });
     }
+
+    public validateProfile(user:any): void{
+        if(user.profile === 'colaborador') {
+            this.router.navigate(['/home/workteam']);
+        } else {
+            this.router.navigate(['/home/myProyects']);
+        }
+    } 
 }
