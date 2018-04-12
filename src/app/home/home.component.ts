@@ -6,7 +6,8 @@ import { HomeService } from './home.service';
     templateUrl: './home.component.html',
     providers: [
         HomeService
-    ]
+    ],
+    styleUrls: ['./home.component.css']
 })
 
 export class HomeComponent implements OnInit {
