@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { HomeComponent } from './home.component';
-import { FooterComponent } from '../footer/footer.component';
 import { HeaderComponent } from '../header/header.component';
 import { SidenavComponent } from '../sidenav/sidenav.component';
 import { MyProyectsComponent } from "./main/myProyects/myProyects.component";
@@ -17,7 +16,6 @@ import { HttpClientModule } from '@angular/common/http';
 @NgModule({
     declarations: [
         HomeComponent,
-        FooterComponent,
         HeaderComponent,
         SidenavComponent,
         MyProyectsComponent,
