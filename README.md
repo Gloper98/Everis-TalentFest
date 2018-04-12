@@ -5,7 +5,6 @@
 ## Enunciado
 En Everis estamos interesados en potenciar las posibilidades de compartir conocimiento y fomentar el desarrollo profesional de nuestros colaboradores, clientes y comunidad en general. Por esto, creamos un desafío que se resuelve desarrollando una solución centrada en la experiencia de usuario que lo resuelva.
 
-
 ## Actividades Previas
 
 ### Organización
@@ -45,8 +44,7 @@ Se han identificado los siguientes tipos de usuario:
 | Usuarios |Tipo| Descripción|
 | ---- | ---- |---- |
 | Líder de Proyecto | Principal| Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
-| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa 
-is|
+| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa|
 
 ### Identificación del Objetivo del Proyecto
 
@@ -87,7 +85,6 @@ al Gerente de Tecnología :
 Se realizó un prototipado rápido luego de haber identificaron pilares y features, 
 
 Versión Nro 1
-
 
 
 Versión Nro 2
