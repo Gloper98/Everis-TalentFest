@@ -14,7 +14,6 @@ import { SettingsComponent } from './main/settings/settings.component';
 import { DocumentationComponent } from './main/documentation/documentation.component';
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
     declarations: [
         HomeComponent,
