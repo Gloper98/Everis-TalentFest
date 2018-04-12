@@ -5,7 +5,7 @@ import { HeaderComponent } from '../header/header.component';
 import { SidenavComponent } from '../sidenav/sidenav.component';
 //Module to consume API, example
 import { BrowserModule } from '@angular/platform-browser';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -22,7 +22,7 @@ import { HttpModule } from '@angular/http';
     //imports to consume API
     imports: [
         BrowserModule,
-        HttpModule
+        HttpClientModule
     ]
 })
 
