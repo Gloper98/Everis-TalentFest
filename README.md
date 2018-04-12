@@ -10,6 +10,26 @@ En Everis estamos interesados en potenciar las posibilidades de compartir conoci
 
 ### Organización
 
+Está conformado por 5 UX's , teniendo como responsabilidad grupal : el diseño de todas las vistas y flujo de la aplicación propuesta 
+
+| Nombre y Apellido  |   |  
+| ---- | ---- |
+| Lourdes Loayza |  |
+| Mariela Cerna | |
+| Yenny Quiñones | |
+| Ruth Matos |  |
+| stepany Humpire | |
+
+Y por 5 Front - Ends's, teniendo la responsabilidad de la Investigación y luego desarrollo. Definir Stack de tecnologías, siendo
+las integrantes las siguientes:
+
+| Nombre y Apellido  |   |  
+| ---- | ---- |
+| Nelida Quispe|  |
+| Dani Gonzales | |
+| Anny Gutiérrez | |
+| Araceli Cueva |  |
+| Lizbeth Félix | |
 
 
 ## Desarrollo de Reto.
@@ -29,14 +49,13 @@ Se han identificado los siguientes tipos de usuario:
 
 ### Identificación del Objetivo del Proyecto
 
-Para lograr este objetivo se realizó una actividad de * **Brainstorming** entre el grupo Ux Designer con el facilitador Marlon Rubianes, Lider UX , para luego agrupar y definir aspectos importantes que tendría que tener el enunciado de nuestro objetivo, entre las cuales se tiene:
-
-
-. Esta actividad es visible en la siguiente imágen:
+Para lograr este objetivo se realizó una actividad de * **Brainstorming** entre el grupo Ux Designer con el facilitador Marlon Rubianes, Lider UX , para luego agrupar y definir aspectos importantes que tendría que tener el enunciado de nuestro objetivo, entre las cuales se tiene: Integración, Colaborativo , Reducir tiempos, Informar , Calidad , Simple y Eficiente.   Esta actividad es visible en la siguiente imágen:
 
 ![brainstorming](https://user-images.githubusercontent.com/32305619/38677151-feab766c-3e22-11e8-85e5-60ce6f3e2ad9.png)
 
-Los aspectos
+
+### Identificación del 
+Se identificó un flujo de actividad que tendrían los usuarios, en algunos interacciones comunes y en otros casos exclusivas de cada usuario. Las cuales se muestra en la siguiente imágen:
 
 ![productdesign](https://user-images.githubusercontent.com/32305619/38677187-1cebb538-3e23-11e8-9a84-c6025ce14991.png)
 
