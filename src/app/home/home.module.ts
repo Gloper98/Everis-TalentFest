@@ -12,6 +12,8 @@ import { HouseComponent } from './main/house/house.component';
 import { SettingsComponent } from './main/settings/settings.component';
 import { DocumentationComponent } from './main/documentation/documentation.component';
 import { HttpClientModule } from '@angular/common/http';
+import { YapeComponent } from './main/myProyects/main/yape/yape.component';
+import { BancaComponent } from './main/myProyects/main/banca/banca.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +24,9 @@ import { HttpClientModule } from '@angular/common/http';
         WorkTeamComponent,
         HouseComponent,
         SettingsComponent,
-        DocumentationComponent
+        DocumentationComponent,
+        YapeComponent,
+        BancaComponent
     ],
     imports: [
         HOME_ROUTES,
