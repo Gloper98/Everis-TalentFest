@@ -2,6 +2,16 @@
 
 ![group 12](https://user-images.githubusercontent.com/32305619/38673228-548aaa38-3e16-11e8-802e-8acfc23de89b.png)
 
+## Desarrollo de Reto.
+## Metodología Product Design.
+
+## Arquetipos
+
+![arquetipo2](https://user-images.githubusercontent.com/32305619/38676857-fb6c7dbc-3e21-11e8-9854-a1f820d080e7.jpg)
+
+![arquetipo1](https://user-images.githubusercontent.com/32305619/38676911-27a2e998-3e22-11e8-931a-59cd61e80c63.jpg)
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
