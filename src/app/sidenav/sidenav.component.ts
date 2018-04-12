@@ -14,8 +14,28 @@ export class SidenavComponent {
     }
 
     tabActive(e){
-       document.getElementById("tag").classList.add('d-none');
-       console.log('hola');
+       document.getElementsByClassName("tag")[0].classList.add('d-block');
+       document.getElementsByClassName("tag")[1].classList.add('d-none');
+       document.getElementsByClassName("tag")[2].classList.add('d-none');
+       document.getElementsByClassName("tag")[0].classList.remove('d-none');
+       document.getElementsByClassName("tag")[1].classList.remove('d-block');
+       document.getElementsByClassName("tag")[2].classList.remove('d-block');
     }
+    tabActive1(e){
+        document.getElementsByClassName("tag")[0].classList.add('d-none');
+        document.getElementsByClassName("tag")[1].classList.add('d-block');
+        document.getElementsByClassName("tag")[2].classList.add('d-none');
+        document.getElementsByClassName("tag")[0].classList.remove('d-block');
+        document.getElementsByClassName("tag")[1].classList.remove('d-none');
+        document.getElementsByClassName("tag")[2].classList.remove('d-block');
+     }
+     tabActive2(e){
+        document.getElementsByClassName("tag")[0].classList.add('d-none');
+        document.getElementsByClassName("tag")[1].classList.add('d-none');
+        document.getElementsByClassName("tag")[2].classList.add('d-block');
+        document.getElementsByClassName("tag")[0].classList.remove('d-block');
+        document.getElementsByClassName("tag")[1].classList.remove('d-block');
+        document.getElementsByClassName("tag")[2].classList.remove('d-none');
+     }
 
 }

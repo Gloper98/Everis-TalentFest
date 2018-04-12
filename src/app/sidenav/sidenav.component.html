@@ -8,7 +8,8 @@
       <span class="col-12 text-center font-weight-bold">Home</span>      
     </div>
   </a>
-  <a class="nav-link container-fluid rounded-0 text-uppercase" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false" routerLink="/home/myProyects">
+  <a (click)="tabActive1($event)" class="nav-link container-fluid rounded-0 text-uppercase" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="false" routerLink="/home/myProyects">
+    <div id="tag" class="tag d-none"></div>
     <div class="row">
         <span class="col-12 text-center font-weight-bold icon-size">
           <span class="lnr lnr-pushpin"></span>        
@@ -16,7 +17,8 @@
         <span class="col-12 text-center font-weight-bold">Proyectos</span>      
     </div>
   </a>
-  <a class="nav-link container-fluid rounded-0 text-uppercase" id="v-pills-teams-tab" data-toggle="pill" href="#v-pills-teams" role="tab" aria-controls="v-pills-teams" aria-selected="false" routerLink="/home/workteam">
+  <a (click)="tabActive2($event)" class="nav-link container-fluid rounded-0 text-uppercase" id="v-pills-teams-tab" data-toggle="pill" href="#v-pills-teams" role="tab" aria-controls="v-pills-teams" aria-selected="false" routerLink="/home/workteam">
+    <div id="tag" class="tag d-none"></div>
     <div class="row">
       <span class="col-12 text-center font-weight-bold icon-size">
         <span class="lnr lnr-users"></span> 
