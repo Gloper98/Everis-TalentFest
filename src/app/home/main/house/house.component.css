@@ -15,7 +15,9 @@
     background-color: #6785C1;
     color: white;
 }
-
+.food-img img{
+    width: 30em;
+}
 .heart-color {
     color: red;
 }
