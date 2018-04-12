@@ -4,7 +4,7 @@ import { MyProyectsService } from './myProyects.service';
 @Component({
     selector: 'app-my-proyects',
     templateUrl: './myProyects.component.html',
-        styleUrls: ['./myProyects.component.css'],
+    styleUrls: ['./myProyects.component.css'],
     providers: [
         MyProyectsService
     ]

@@ -8,13 +8,15 @@
             <div class="collapse" id="collapseExample">
               <div class="card card-body tag-filter">
                   <div class="btn-group-vertical" role="group" aria-label="Basic example">
-                      <button type="button" class="btn">Left</button>
-                      <button type="button" class="btn">Middle</button>
+                      <button type="button" class="btn" routerLink="/myProyects/yape">Left</button>
+                      <button type="button" class="btn" routerLink="/myProyects/banca">Middle</button>
                       <button type="button" class="btn">Right</button>
                     </div>
               </div>
             </div>
       </div>
-      <div class="card col-8">soy8</div>
+      <div class="card col-8">
+        <router-outlet></router-outlet>        
+      </div>
     </div>
   </div>
