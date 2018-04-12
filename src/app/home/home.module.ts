@@ -14,11 +14,11 @@ import { DocumentationComponent } from './main/documentation/documentation.compo
 import { HttpClientModule } from '@angular/common/http';
 import { YapeComponent } from './main/myProyects/main/yape/yape.component';
 import { BancaComponent } from './main/myProyects/main/banca/banca.component';
+import { FooterModule } from '../header/header.module';
 
 @NgModule({
     declarations: [
         HomeComponent,
-        HeaderComponent,
         SidenavComponent,
         MyProyectsComponent,
         WorkTeamComponent,
@@ -31,7 +31,8 @@ import { BancaComponent } from './main/myProyects/main/banca/banca.component';
     imports: [
         HOME_ROUTES,
         BrowserModule,
-        HttpClientModule
+        HttpClientModule,
+        FooterModule
     ],
     exports: [
         HomeComponent  
