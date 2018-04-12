@@ -4,13 +4,13 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class HomeService {
+export class HouseService {
 
   constructor(private http: HttpClient) {
   }
 
   public getContacts(): Observable<any> {
-    const apiUrl = 'https://backend-everis.herokuapp.com/api/guardar-proyect';
+    const apiUrl = 'https://api.myjson.com/bins/nk6k7';
     return this.http.get(apiUrl)
       .map((res) => {
         return res;
