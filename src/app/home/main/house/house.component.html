@@ -3,28 +3,15 @@
     <div class="col-12 col-md-7">
       <div class="background-white box">
         <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img class="logo-business" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BCP.svg/1200px-BCP.svg.png" alt="logo">
-                <h5 class="card-title">Proyecto</h5>
-                <p class="projectToWork"><span class="lnr lnr-briefcase"></span>Banca Online</p>
-              </div>
-            </div>
-            <br>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                  <img class="logo-business" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BCP.svg/1200px-BCP.svg.png" alt="logo">
-                  <h5 class="card-title">Proyecto</h5>
-                  <p class="projectToWork"><span class="lnr lnr-briefcase"></span>Yape</p>
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-md-6">
-              <div class="card">
+          <div class="col-xs-12">
                   <ng-container *ngFor="let contact of data.proyects">
-                      <div class="card" style="width: 18rem;">
+                      <div class="row card d-inline">
+                      <div class="card col-12 ">
+                          <div class="card-body">
+                              <img class="logo-business" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/BCP.svg/1200px-BCP.svg.png" alt="logo">
+                              <h5 class="card-title">Proyecto</h5>
+                              <p class="projectToWork"><span class="lnr lnr-briefcase"></span>{{contact.proyectName}}</p>
+                            </div>
                           <div class="card-body">
                             <h5 class="card-title">Lider: {{contact.contactName}}</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Description: {{contact.description}}</h6>
@@ -34,8 +21,9 @@
                         </div>
                         <br>
                         <br>
+                      </div>
                   </ng-container>
-                </div>
+                
             <!-- <div class="">
               <div class="card-body">
                 <p class="business-date"><span class="black-letter">Direccion:</span> {{contact.EMPRESA}} </p>
