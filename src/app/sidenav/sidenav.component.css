@@ -1,3 +1,10 @@
 .icon-size {
     font-size: 1.8rem;
 }
+.nav {
+    background-color: #FAF9FF;
+}
+.nav-link:focus, .nav-link:active, .nav-link:visited, .nav-link {
+    background-color: #FAF9FF;
+    color: #9AAE04;
+}
