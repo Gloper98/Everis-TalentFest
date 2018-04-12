@@ -31,3 +31,33 @@
 ul {
     list-style: none;
 }
+.project-title {
+    margin-top: 1em;
+}
+.logo-business {
+    width: 10em;
+}
+ul {
+    list-style: none;
+}
+.business-date {
+    font-size: 13px;
+}
+.black-letter {
+    font-weight: 600;
+}
+.background-white {
+    background-color: #fff;
+}
+.box {
+    padding: 1em 1em 0 1em;
+}
+.projectToWork {
+    line-height: 13px;
+}
+.projectToWork span {
+    margin-right: 1em;
+}
+.card-title {
+    margin-top: 1em;
+}
