@@ -45,7 +45,8 @@ Se han identificado los siguientes tipos de usuario:
 | Usuarios |Tipo| Descripción|
 | ---- | ---- |---- |
 | Líder de Proyecto | Principal| Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
-| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa everis|
+| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa 
+is|
 
 ### Identificación del Objetivo del Proyecto
 
@@ -68,12 +69,28 @@ Se identificó un flujo de actividad que tendrían los usuarios, en algunos inte
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
+
+## Entrevistas
+Como siguiente paso , realizamos entrevistas a personal de Everis, con diferentes perfiles y roles.
+
+al Gerente de Tecnología : 
+
+![entrevista-colaborador-2-a](https://user-images.githubusercontent.com/31896385/38693449-80c8d986-3e4c-11e8-96f2-ee17a1b11070.png)
+
+
+
+ a usuarios colaboradores :
+
+![Uploading entrevista-colaborador-recientemente-nuevo-1.png…]()
+
+
+
+
 ## Testing
 
 Se realizó un testing con un Alvaro , Desarrollador de Everis, con el perfil de usuario colaborador .
 
-
-![testing-1](https://user-images.githubusercontent.com/31896385/38692224-bd8fa466-3e48-11e8-9751-a16e74fb4c6a.png)
+[testing-1](https://user-images.githubusercontent.com/31896385/38692224-bd8fa466-3e48-11e8-9751-a16e74fb4c6a.png)
 
 
 ## Development server
