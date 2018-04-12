@@ -3,6 +3,7 @@ import { HomeService } from './home.service';
 
 @Component({
     selector: 'app-home',
+    // template: '<router-outlet></router-outlet>',
     templateUrl: './home.component.html',
     providers: [
         HomeService

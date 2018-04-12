@@ -11,6 +11,6 @@ import { SidenavComponent } from './sidenav.component';
     ]
 })
 
-export class HomeModule {
+export class SideNavModule {
 
 }

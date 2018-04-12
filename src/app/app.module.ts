@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 
 import { HomeModule } from './home/home.module';
 import { LoginModule } from './login/login.module';
-import { HomeLeaderModule }  from './leaderView/homeLeader.module'
+
 
 @NgModule({
   declarations: [
@@ -17,7 +17,6 @@ import { HomeLeaderModule }  from './leaderView/homeLeader.module'
     BrowserModule,
     HomeModule,
     LoginModule,
-    HomeLeaderModule,
     ROUTES_APP,
     HttpClientModule
   ],

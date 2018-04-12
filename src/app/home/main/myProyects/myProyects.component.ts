@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 
 @Component({
     selector: 'app-my-proyects',
+    // template: '<router-outlet></router-outlet>',
     templateUrl: './myProyects.component.html',
     styleUrls: ['./myProyects.component.css'],
     providers: [

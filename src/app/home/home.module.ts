@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { HomeComponent } from './home.component';
 import { HeaderComponent } from '../header/header.component';
 import { SidenavComponent } from '../sidenav/sidenav.component';
-import { MyProyectsComponent } from "./main/myProyects/myProyects.component";
 import { WorkTeamComponent } from './main/workTeam/workTeam.component';
 import { HOME_ROUTES } from './home.routes';
 //Module to consume API, example
@@ -12,27 +11,26 @@ import { HouseComponent } from './main/house/house.component';
 import { SettingsComponent } from './main/settings/settings.component';
 import { DocumentationComponent } from './main/documentation/documentation.component';
 import { HttpClientModule } from '@angular/common/http';
-import { YapeComponent } from './main/myProyects/main/yape/yape.component';
-import { BancaComponent } from './main/myProyects/main/banca/banca.component';
 import { FooterModule } from '../header/header.module';
+import { HouseModule } from './main/house/house.module';
+import { MyProyectsModule } from './main/myProyects/myProyects.module';
+import { SideNavModule } from '../sidenav/sidenav.module';
 
 @NgModule({
     declarations: [
         HomeComponent,
-        SidenavComponent,
-        MyProyectsComponent,
         WorkTeamComponent,
-        HouseComponent,
         SettingsComponent,
         DocumentationComponent,
-        YapeComponent,
-        BancaComponent
     ],
     imports: [
         HOME_ROUTES,
         BrowserModule,
         HttpClientModule,
-        FooterModule
+        FooterModule, 
+        HouseModule,
+        MyProyectsModule, 
+        SideNavModule
     ],
     exports: [
         HomeComponent  
