@@ -24,4 +24,20 @@ export class HouseService{
         return res;
       });
   }
+
+  public getEvents(): Observable<any> {
+    const apiUrl = 'https://backend-everis.herokuapp.com/api/guardar-event';
+    return this.http.get(apiUrl)
+      .map((res) => {
+        return res;
+      });
+  }
+
+  public getBenefit(): Observable<any> {
+    const apiUrl = 'https://backend-everis.herokuapp.com/api/guardar-benefit';
+    return this.http.get(apiUrl)
+      .map((res) => {
+        return res;
+      });
+  }
 } 
