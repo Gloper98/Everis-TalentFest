@@ -42,10 +42,10 @@ las integrantes las siguientes:
 
 Se han identificado los siguientes tipos de usuario:
 
-| Usuarios  |Tipo|  | Descripción|
-| ---- | ---- |---- |---- |
-| Líder de Proyecto | Principal|  Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
-| Colaborador | Secundario| |Es el stakeholder que es asignado o perteneces a un proyecto de la empresa everis)
+| Usuarios |Tipo| Descripción|
+| ---- | ---- |---- |
+| Líder de Proyecto | Principal| Es el stakeholder que induce  a un colaborador nuevo al  proyecto que lidera y le da seguimiento para que pueda desolverse adecuadamente durante todo el periodo de su permanencia|
+| Colaborador | Secundario| Es el stakeholder que es asignado o perteneces a un proyecto de la empresa everis|
 
 ### Identificación del Objetivo del Proyecto
 
