@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 
-import { SidenavComponent } from './sidenav.component';
+import { SidenavLeaderComponent } from './sidenavLeader.component';
 
 @NgModule({
     declarations: [
-        SidenavComponent
+        SidenavLeaderComponent
     ],
     exports: [
-        SidenavComponent
+        SidenavLeaderComponent
     ]
 })
 

@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { HomeService } from './home.service';
+import { HomeService } from './homeLeader.service';
 
 @Component({
     selector: 'app-home',
-    templateUrl: './home.component.html',
+    templateUrl: './homeLeader.component.html',
     providers: [
         HomeService
     ],
-    styleUrls: ['./home.component.css']
+    styleUrls: ['./homeLeader.component.css']
 })
 
-export class HomeComponent implements OnInit {
+export class HomeLeaderComponent implements OnInit {
 
     data: any = {};
     public title: string;

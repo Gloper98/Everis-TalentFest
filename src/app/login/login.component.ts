@@ -23,7 +23,6 @@ export class LoginComponent {
         this.loginServices.signIn(this.email, this.password).subscribe((user) => {
             if (user.body.usuario.name) {
                 this.validateProfile(user.body.usuario);
-                this.router.navigate(['/home/house']);
             } else {
                 this.router.navigate(['/login']);
                 console.log('usuario no registrado');
@@ -33,9 +32,9 @@ export class LoginComponent {
 
     public validateProfile(user:any): void{
         if(user.profile === 'colaborador') {
-            this.router.navigate(['/home/workteam']);
+            this.router.navigate(['/home/house']);
         } else {
-            this.router.navigate(['/home/myProyects']);
-        }
+            this.router.navigate(['/homeleader/house']);
+        }   
     } 
 }

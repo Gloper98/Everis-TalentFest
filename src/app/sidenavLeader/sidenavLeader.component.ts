@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-    selector: 'app-sidenav',
-    templateUrl: './sidenav.component.html',
-    styleUrls: ['./sidenav.component.css']
+    selector: 'app-sidenavleader',
+    templateUrl: './sidenavLeader.component.html',
+    styleUrls: ['./sidenavLeader.component.css']
 })
-export class SidenavComponent {
+export class SidenavLeaderComponent {
     public title: string;
 
     constructor(private router: Router){
