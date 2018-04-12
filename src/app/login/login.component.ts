@@ -13,9 +13,7 @@ export class LoginComponent {
         this.title = 'login';
     }
 
-     public goLogin() {
-    this.router.navigate(['/home']);
-  }
-
-
+    public goLogin() {
+        this.router.navigate(['/home']);
+    }
 }
