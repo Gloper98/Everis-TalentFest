@@ -86,16 +86,22 @@ Se realizó un prototipado rápido luego de haber identificaron pilares y featur
 
 Versión Nro 1
 
-
 Versión Nro 2
 ![pantallas de colaborador](https://user-images.githubusercontent.com/31896385/38694578-a65d4fd0-3e4f-11e8-8521-fede7b55ee86.png)
-
 
 ## Testing
 
 Se realizó un testing con un Alvaro , Desarrollador de Everis, con el perfil de usuario colaborador .
 
 ![testing-1](https://user-images.githubusercontent.com/31896385/38693997-1e5ec77c-3e4e-11e8-85fb-62b5a8cbcc72.png)
+
+## PROTOTIPO EN MARVEL
+
+| Herramienta  |Version | Link| 
+| ---- | ---- |---- |
+| Marvel | Nro 1  - Colaborador| https://marvelapp.com/project/2903332/ |
+| Marvel | Nro 2  - Gestor Lider| https://marvelapp.com/522ci51/screen/41124055 |
+
 
 ## Development server
 
