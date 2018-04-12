@@ -12,6 +12,9 @@
     margin-top: 0.6em;
     color: #626262;
 }
+a {
+    color: #9AAE04;
+}
 .welcome {
     font-weight: 600;
 }
