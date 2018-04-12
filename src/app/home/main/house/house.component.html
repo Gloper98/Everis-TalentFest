@@ -36,15 +36,6 @@
                         <br>
                   </ng-container>
                 </div>
-            <!-- <div class="">
-              <div class="card-body">
-                <p class="business-date"><span class="black-letter">Direccion:</span> {{contact.EMPRESA}} </p>
-                <p class="business-date"><span class="black-letter">Horario de apertura:</span> {contact.FECHA}}</p>
-                <p class="business-date"><span class="black-letter">Business Partner:</span></p>
-                <p class="business-date">rositachavez@everis.pe</p>
-                <p class="business-date"><span class="black-letter">Cel.</span> </p>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -149,16 +140,34 @@
                 </div>
                 <div id="collapseRestaurant" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                    <h6 class="text-uppercase">Restaurantes La Molina</h6>
+                    <h6 >Restaurantes La Molina</h6>
                       <div class="row">
+                          <ng-container *ngFor="let element of dataRestaurants.restaurants">
+                              <div class="card" style="width: 18rem;">
+                                  <div class="card-body">
+                                    <h5 class="card-title">{{element.name}}</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Promedio de Precios: {{element.menuPrice}}</h6>
+                                    <p class="card-text">Direccion: {{element.address}}</p>
+                                  </div>
+                                  <div class="col-4">
+                                      <img src="https://user-images.githubusercontent.com/32286663/38670489-8a6f4558-3e0e-11e8-9737-8ade0dd9f090.jpg" class="img-fluid" alt="">
+                                  </div>
+                                </div>
+                                <br>
+                                <br>
+                          </ng-container>
+                          <!-- <ng-container *ngFor="let contact of data.restaurants">
                               <div class="col-8">
-                                  <h6>Name</h6>
+                                  <h6>Name: {{contact.name}}</h6>
                                   <p class="my-0">Precio: <span></span></p>
                                   <p>Lugar: <span></span></p>
-                              </div>
-                              <div class="col-4">
+                              </div> -->
+                              <!-- <div class="col-4">
                                   <img src="https://user-images.githubusercontent.com/32286663/38670489-8a6f4558-3e0e-11e8-9737-8ade0dd9f090.jpg" class="img-fluid" alt="">
-                              </div>
+                              </div> -->
+                              <!-- </ng-container> -->
+                              <br>
+                              <br>
                           </div>  
                         </div>
                       </div>
