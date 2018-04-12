@@ -1,37 +1,32 @@
-import { Component } from '@angular/core';
-//import to use http request
-import { Http, Response } from '@angular/http';
-import 'rxjs/add/operator/map';
-
+import { Component, OnInit } from '@angular/core';
+import { HomeService } from './home.service';
 
 @Component({
     selector: 'app-home',
-    templateUrl: './home.component.html'
+    templateUrl: './home.component.html',
+    providers: [
+        HomeService
+    ]
 })
 
-export class HomeComponent {
-    // variable to use API
-    private apiUrl = 'https://address-book-demo.herokuapp.com/api/contacts';
-    data:any ={};
+export class HomeComponent implements OnInit {
+
+    data: any = {};
     public title: string;
 
-    constructor(private http: Http){
-        console.log('Hola');
+    constructor(private homeService: HomeService) {
         this.title = 'la home';
-        this.getContacts();
-        this.getData();
     }
 
-    getData() {
-        return this.http.get(this.apiUrl)
-        .map((res: Response) => res.json())
+    ngOnInit(): void {
+        this.renderContact();
     }
 
-    getContacts() {
-        this.getData().subscribe(data => {
-            console.log(data);
-            this.data =data
-        })
+    public renderContact(): void {
+        this.homeService.getContacts().subscribe(data => {
+            console.log('llamada backend', data);
+            this.data = data;
+        });
     }
 
 }

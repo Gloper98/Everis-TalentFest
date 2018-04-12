@@ -1,11 +1,13 @@
 <div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Add your project:</label>
-                  <input #newHero
-                  (keyup.enter)="addHero(newHero.value)"
-                  (blur)="addHero(newHero.value); newHero.value='' " type="text" class="form-control" id="exampleInputPassword1" placeholder="Add your project">
-                </div>
-                <button (click)="addHero(newHero.value)" class="btn btn-primary">Add</button>
-
-    <ul><li *ngFor="let hero of heroes">{{hero}}</li></ul>
+     <div class="form-group">
+     <label for="projectInput">Add your project:</label>
+      <input #newProject
+            type="text"
+            class="form-control" 
+            id="projectInput" 
+            placeholder="Add your project"
+        >
+      </div>
+      <button (click)="addProject(newProject.value)" class="btn btn-primary">Add</button>
+    <!--<ul><li *ngFor="let hero of heroes">{{hero}}</li></ul>-->
 </div>
