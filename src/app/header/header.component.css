@@ -17,6 +17,7 @@
   line-height: 8px;
 }
 
-.header-nav {
-  position: relative;
+nav {
+    border-bottom: 1.5px solid #EBEBEF;
+    width: 100vw;
 }

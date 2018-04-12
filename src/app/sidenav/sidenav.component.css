@@ -3,6 +3,8 @@
 }
 .nav {
     background-color: #FAF9FF;
+    border-right: 1.5px solid #EBEBEF;
+    height: 100vh;
 }
 .nav-link:focus, .nav-link:active, .nav-link:visited, .nav-link {
     background-color: #FAF9FF;
