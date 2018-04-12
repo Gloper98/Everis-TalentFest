@@ -90,8 +90,7 @@ al Gerente de Tecnología :
 
 Se realizó un testing con un Alvaro , Desarrollador de Everis, con el perfil de usuario colaborador .
 
-[testing-1](https://user-images.githubusercontent.com/31896385/38692224-bd8fa466-3e48-11e8-9751-a16e74fb4c6a.png)
-
+![testing-1](https://user-images.githubusercontent.com/31896385/38693997-1e5ec77c-3e4e-11e8-85fb-62b5a8cbcc72.png)
 
 ## Development server
 
