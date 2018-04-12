@@ -2,27 +2,35 @@
   <div class="row">
     <div class="col-12 col-lg-5">
       <!-- Image and text -->
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar navbar-light nav-logo">
         <a class="navbar-brand" href="#">
           <img src="https://user-images.githubusercontent.com/32286663/38649097-49d853b2-3dba-11e8-8457-9a93e033bcc1.png" width="100" height="70" class="d-inline-block align-top" alt="logo-everis">
         </a>
       </nav>
-      <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary" (click)="goLogin()">Log In</button>
-        </form>
+      <br>
+      <h3 class="text-welcome text-center">BIENVENIDO(A) A NUESTRA COMUNIDAD VIRTUAL</h3>
+      <br>
+      <h4 class="text-muted text-center">INICIA SESIÓN</h4>
+      <br>
+      <div class="box-form">
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">@</div>
+                        </div>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="lemail" [(ngModel)]="email" #lemail="ngModel">
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="lpassword" [(ngModel)]="password" #lpassword="ngModel">
+                  </div>
+                  <button type="submit" class="btn btn-primary bg-btn" (click)="logIn()">Ingresar</button>
+                </form>
+        </div>
+      </div>
+      
     </div>
     <div class="d-none d-lg-block col-lg-7 bg-image"></div>
   </div>

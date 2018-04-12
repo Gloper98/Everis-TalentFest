@@ -1,0 +1,3 @@
+.btn-link:focus, .btn-link.focus, .btn-link:hover {
+    text-decoration: none;
+}
